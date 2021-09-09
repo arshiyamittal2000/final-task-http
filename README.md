@@ -1,4 +1,8 @@
 # Final
+![Screenshot from 2021-09-09 14-58-31](https://user-images.githubusercontent.com/45172371/132661024-43faecd6-65a6-4ccc-ad25-379e3c7e53fc.png)
+![Screenshot from 2021-09-09 14-59-14](https://user-images.githubusercontent.com/45172371/132661027-580f8abf-bda8-4f00-8873-b9cf95960876.png)
+![Screenshot from 2021-09-09 14-59-49](https://user-images.githubusercontent.com/45172371/132661035-d569cef7-8108-4cd2-bbb7-bbe631c5a5c0.png)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
 
