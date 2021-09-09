@@ -1,0 +1,15 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+<div class="container ">
+    <form [formGroup]="Data" class="new">
+        <label class="form-label" for="">Title:</label>
+        <input class="form-control" formControlName="title" type="text" placeholder="Enter your Title"/><br/>
+<p>
+<input type="file" (change)="File($event)" required/></p>
+        &nbsp;
+<p>
+<input type="file" (change)="File($event)" required/></p>
+    </form>
+
+    <button (click)="Submit()" class="btn btn-primary mx-4 mb-4" type="submit">Submit</button>
+</div>

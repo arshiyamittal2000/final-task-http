@@ -1,0 +1,13 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"  />
+<div class="container">
+    <button (click)="move()" class="btn btn-primary m-5" type="button">Go to Page-3</button>
+    <ng-container *ngFor="let content of apiContent; let i = index">
+
+        <p class="mt-4">Title {{ i + 1 }}: {{ content.title }}</p>
+        <div style="display: flex; align-items: center; justify-content: center">
+
+            <img [src]="content.upload1" />
+            <img class="mx-3" [src]="content.upload2" />
+             </div>
+    </ng-container><br />
+</div>
